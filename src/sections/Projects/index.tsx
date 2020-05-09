@@ -5,7 +5,9 @@ import Wrapper from '../../components/Wrapper'
 const Projects = () => {
   return (
     <Wrapper>
-      <h2>Projects</h2>
+      <section id="projects">
+        <h2>Projects</h2>
+      </section>
     </Wrapper>
   )
 }

@@ -8,6 +8,12 @@ function App() {
     <main>
       <Global
         styles={css`
+          :root {
+            --wd-color-primary: #ff7e00;
+            --wd-gradient-colors: rgba(255, 126, 0, 1) 0%,
+              rgba(255, 69, 0, 1) 100%;
+          }
+
           html {
             font-family: 'Roboto', sans-serif;
           }
