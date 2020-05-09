@@ -2,17 +2,19 @@
 
 html {
   font-size: 18px;
+  color: rgba(0, 0, 0, 0.87);
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.65;
 }
 
 html,
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Roboto', sans-serif;
-  line-height: 1.65;
 }
 
 h1 {
+  color: #334a5e;
   font-weight: 300;
   margin-bottom: 0;
   font-size: 3.052rem;
@@ -35,6 +37,7 @@ hgroup {
 
 .subheadline {
   opacity: 0.8;
+  color: #334a5e;
 }
 
 p {
