@@ -8,6 +8,9 @@ function App() {
     <main>
       <Global
         styles={css`
+          html {
+            font-family: 'Roboto', sans-serif;
+          }
           h1 {
             font-weight: 300;
             font-size: 3rem;
