@@ -41,13 +41,14 @@ const TopSection = () => {
                   👨🏼‍💻
                 </span>
               </h1>
-              <h2
+              <span
                 css={css`
-                  margin-top: 0;
+                  display: block;
+                  opacity: 0.8;
                 `}
               >
                 Where Hendrik hosts his projects.
-              </h2>
+              </span>
 
               <WDButton
                 css={css`

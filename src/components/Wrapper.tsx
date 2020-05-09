@@ -8,6 +8,9 @@ const Wrapper: FC = ({ children }) => (
       max-width: 80rem;
       margin: 0 auto;
       height: 100%;
+      @media (max-width: 50rem) {
+        padding: 0 1rem;
+      }
     `}
   >
     {children}
