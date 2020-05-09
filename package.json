@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel ..."
+    "build": "rm -rf dist && parcel build index.html"
   },
   "repository": "https://github.com/HoverBaum/wallbaum.dev.git",
   "author": "Hendrik <mail@hendrikwallbaum.de>",
