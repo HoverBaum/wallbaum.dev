@@ -1,20 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
 
-html {
-  font-size: 18px;
-  color: rgba(0, 0, 0, 0.87);
-  font-family: 'Roboto', sans-serif;
-  line-height: 1.65;
+:root {
+  --background-color: #fff;
+  --text-color: rgba(0, 0, 0, 0.87);
+  --headline-color: #334a5e;
 }
 
 html,
 body {
+  font-size: 18px;
+  color: var(--text-color);
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.65;
+  background-color: var(--background-color);
   margin: 0;
   padding: 0;
 }
 
 h1 {
-  color: #334a5e;
+  color: var(--headline-color);
   font-weight: 300;
   margin-bottom: 0;
   font-size: 3.052rem;
@@ -37,11 +41,16 @@ hgroup {
 
 .subheadline {
   opacity: 0.8;
-  color: #334a5e;
+  color: var(--headline-color);
 }
 
 p {
   max-width: 30rem;
+}
+
+a,
+a:visited {
+  color: var(--text-color);
 }
 
 main {
@@ -73,5 +82,26 @@ main {
 @media (max-width: 50rem) {
   .picture {
     display: none;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-color: #121212;
+    --text-color: #fefefe;
+    --headline-color: #fefefe;
+  }
+
+  .picture {
+    opacity: 0.75;
+  }
+
+  h1 {
+    border-image: linear-gradient(
+        90deg,
+        rgba(255, 126, 0, 0.66) 0%,
+        rgba(255, 69, 0, 0.66) 100%
+      )
+      1;
   }
 }
