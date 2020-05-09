@@ -17,6 +17,16 @@ h1 {
   margin-bottom: 0;
   font-size: 3.052rem;
   line-height: 1.15;
+  border-style: solid;
+  border-width: 0 0 2px 0;
+  margin-bottom: 0.33rem;
+  width: fit-content;
+  border-image: linear-gradient(
+      90deg,
+      rgba(255, 126, 0, 1) 0%,
+      rgba(255, 69, 0, 1) 100%
+    )
+    1;
 }
 
 hgroup {
