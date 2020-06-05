@@ -30,7 +30,10 @@
       const hostname = window.location.hostname
       const path = window.location.pathname
       const width = window.innerWidth
-      const referrer = new URL(window.document.referrer).hostname
+      const referrer = ''
+      try {
+        new URL(window.document.referrer).hostname
+      } catch (e) {}
       fetch(
         `https://treesail.wallbaum.dev/api/gust?path=${path}&hostname=${hostname}&width=${width}&referrer=${referrer}`
       )
