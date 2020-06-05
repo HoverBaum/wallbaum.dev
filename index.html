@@ -26,17 +26,6 @@
 
       <div class="side picture"></div>
     </main>
-    <script>
-      const hostname = window.location.hostname
-      const path = window.location.pathname
-      const width = window.innerWidth
-      const referrer = ''
-      try {
-        new URL(window.document.referrer).hostname
-      } catch (e) {}
-      fetch(
-        `https://treesail.wallbaum.dev/api/gust?path=${path}&hostname=${hostname}&width=${width}&referrer=${referrer}`
-      )
-    </script>
+    <script src="https://treesail.wallbaum.dev/treesail.js"></script>
   </body>
 </html>
