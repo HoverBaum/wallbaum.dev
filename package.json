@@ -8,6 +8,6 @@
   "repository": "https://github.com/HoverBaum/wallbaum.dev.git",
   "author": "Hendrik <mail@hendrikwallbaum.de>",
   "dependencies": {
-    "parcel-bundler": "^1.12.4"
+    "parcel-bundler": "^1.12.5"
   }
 }
