@@ -1,14 +1,8 @@
 {
   "name": "wallbaum.dev",
-  "version": "1.0.0",
-  "source": "index.html",
   "scripts": {
-    "start": "parcel",
-    "build": "rm -rf dist && parcel build"
+    "dev": "npx live-server "
   },
   "repository": "https://github.com/HoverBaum/wallbaum.dev.git",
-  "author": "Hendrik <mail@hendrikwallbaum.de>",
-  "devDependencies": {
-    "parcel": "^2.5.0"
-  }
+  "author": "Hendrik <mail@hendrikwallbaum.de>"
 }

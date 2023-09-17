@@ -100,7 +100,7 @@ main {
 .picture {
   border: 2rem solid var(--background-color);
   border-radius: 4rem;
-  background-image: url('/side-image.jpg');
+  background-image: url('/construction.png');
   background-size: cover;
   background-position: center;
 }
